@@ -1,57 +1,48 @@
-body{
+body {
     padding-top: 56px;
 }
-nav{
+
+nav {
     background-color: rgb(44, 62, 80);
-    max-width: 1170px;
 }
-.ms_line{
-    height: 3px;
+
+.ms_line {
+    height: 5px;
     width: 40%;
     margin: auto;
     border-radius: 2px;
-    background-color: white;
     position: relative;
 }
-.ms_img{
+
+.ms_img {
     width: 180px;
 }
-.ms_star{
+
+.ms_star {
     position: absolute;
     top: -8px;
     left: 50%;
     transform: translateX(-50%);
     width: 20px;
-    background-color:rgb(26, 188, 156);
+    background-color: rgb(26, 188, 156);
     color: white;
-  }
-
-
-.ms_nav-top{
-    max-width: 1170px;
-    margin: auto;
-    height: 100px;
 }
-.ms_main{
-    max-width: 1170px;
+
+.ms_main {
     margin: auto;
     background-color: rgb(26, 188, 156);
- 
 }
-.ms_jumbotron{
-    max-width: 1170px;
-    margin: auto;
+
+.ms_jumbotron {
     background-color: rgb(26, 188, 156);
-    height: 300px;
 }
-.ms_card{
-    max-width: 1170px;
+
+
+
+.ms_mauto {
     margin: auto;
-    background-color: red;
-    height: 150px;
-    border: dashed 2px black;
 }
-.ms_portfolio{
+
+.ms_mxw {
     max-width: 1170px;
-    margin: auto;
 }

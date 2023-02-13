@@ -16,8 +16,8 @@
 
 <body>
     <header class="container-fluid ms_header ">
-        <div class="row">
-            <nav class="navbar navbar-expand-sm m-auto text-white fixed-top">
+        <div class="row ">
+            <nav class="navbar navbar-expand-sm text-white fixed-top  px-3">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
                     <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -27,13 +27,14 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="#portfolio">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">ABOUT</a>
+                                <a class="nav-link text-white" href="#about">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">CONTACT</a>
+                                <a class="nav-link text-white" href="#contact">CONTACT</a>
                             </li>
                         </ul>
 
@@ -45,7 +46,7 @@
     </header>
     <main class="container-fluid ms_main">
         <!--Parte jumbotron-->
-        <div class="row">
+        <div class="row ms_mxw ms_mauto">
             <div class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 ms_jumbotron text-center">
                 <img class="ms_img mt-2" src="img/avatar.svg" alt="immagine avatar">
                 <h2 class="text-white fw-semibold mt-3">START BOOTSTRAP</h2>
@@ -56,29 +57,59 @@
             </div>
         </div>
         <!--Parte portfolio-->
-        <div class="row ms_portfolio">
-            <div class="col-12 ms_card mt-5 ">Portfolio</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
-            <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
+        <div class="container-fluid bg-white">
+            <div id="portfolio" class="row ms_portfolio ms_mxw ms_mauto  w-100 pb-5 mt-5">
+                <div class="col-12 ms_card mt-5">
+                    <h3 class="fw-semibold text-center">Portfolio</h3>
+                    <div class="ms_line bg-black mt-3">
+                        <div class="border"><i class="ms_star fa-solid fa-star rounded-circle"></i></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5 rounded " src="img/cabin.png" alt="">
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5  rounded " src="img/cake.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5 rounded " src="img/circus.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5 rounded " src="img/game.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5 rounded " src="img/safe.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">
+                    <img class="w-100 mt-5 rounded " src="img/submarine.png" alt="">
+                </div>
+            </div>
         </div>
         <!--Parte about us-->
-        <div class="row ms_about bg-primary">
+        <div class="container-fluid  bg-primary">
+        <div id="about" class="row ms_about  ms_mxw ms_mauto pt-5">
             <div class="col-8 offset-2 col-sm-4 offset-sm-4 col-lg-2 offset-lg-5 mt-5 text-center"> ABOUT </div>
-            <div class="col-8 offset-2 col-sm-4 offset-sm-2 mt-5"> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Quisquam magnam similique dolorum facilis, numquam cum fugiat mollitia ipsum omnis, ratione,
-                obcaecati rerum nobis culpa accusamus quaerat molestiae aliquid tenetur ea. </div>
-            <div class="col-8 offset-2 col-sm-4 offset-sm-1 mt-5"> Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Unde, veritatis! Commodi provident non ut ab nihil quidem labore aut sit id, architecto veritatis
-                praesentium voluptate eos libero sequi repellat deleniti. </div>
+            <div class="col-8 offset-2 col-sm-4 offset-sm-2 mt-5 text-white"> Freelancer is a free bootstrap
+                theme created by Start Bootstrap.
+                The download includes the
+                complete source files including
+                HTML, CSS, and JavaScript as well
+                as optional LESS stylesheets for
+                easy customization. </div>
+            <div class="col-8 offset-2 col-sm-4 offset-sm-1 mt-5 text-white"> Whether you're a student looking to
+                showcase your work, a professional
+                looking to attract clients, or a
+                graphic artist looking to share your
+                projects, this template is the perfect
+                starting pointl </div>
             <div class="col-8 offset-2 mt-5 mb-5 text-center "> <button class="btn btn-secondary"
                     type="submit">Button</button></div>
         </div>
+        </div>
         <!--Parte contact-->
-        <div class="row ms_contact bg-warning">
+        <div class="container-fluid  bg-warning ">
+        <div id="contact" class="row ms_contact  ms_mxw ms_mauto">
             <div class="col-8 offset-2 mt-5 text-center"> CONTACT ME </div>
             <div class="col-8 offset-2  border-bottom">Name</div>
             <div class="col-8 offset-2  mt-5 border-bottom">Email</div>
@@ -88,7 +119,7 @@
                     type="submit">Send</button></div>
         </div>
 
-        <div class="row text-center bg-primary">
+        <div class="row text-center bg-primary ">
             <div class="col-12 mt-5 col-sm-4">location</div>
             <div class="col-12 mt-5 col-sm-4">round the web</div>
             <div class="col-12 mt-5 col-sm-4"> about freelance</div>
@@ -97,6 +128,7 @@
         <div class="row text-center bg-warning">
             <div class="col-12">Copyright O Your website 2019</div>
 
+        </div>
         </div>
 
 
