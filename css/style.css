@@ -1,19 +1,29 @@
 .ms_header{
     height: 100px;
     background-color: rgb(44, 62, 80);
+    max-width: 1170px;
+    margin: auto;
 }
 .ms_nav-top{
+    max-width: 1170px;
+    margin: auto;
     height: 100px;
 }
 .ms_main{
+    max-width: 1170px;
+    margin: auto;
     background-color: rgb(26, 188, 156);
     height: 300px;
 }
 .ms_jumbotron{
+    max-width: 1170px;
+    margin: auto;
     background-color: blue;
     height: 300px;
 }
 .ms_card{
+    max-width: 1170px;
+    margin: auto;
     background-color: red;
     height: 150px;
     border: dashed 2px black;
