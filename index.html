@@ -15,44 +15,49 @@
 </head>
 
 <body>
-    <header class="container-fluid ms_header fixed-top">
+    <header class="container-fluid ms_header ">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-sm m-auto text-white fixed-top">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                    </ul>
-          
-                  </div>
+                    <a class="navbar-brand fw-bold text-white" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-              </nav>
-              
+            </nav>
+
         </div>
     </header>
     <main class="container-fluid ms_main">
+        <!--Parte jumbotron-->
         <div class="row">
             <div class="col-12 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 ms_jumbotron text-center">
-                img <br>
-                START Bootstrap <br>
-                disegnino <br>
-                graph- web- illustrator
+                <img class="ms_img mt-2" src="img/avatar.svg" alt="immagine avatar">
+                <h2 class="text-white fw-semibold mt-3">START BOOTSTRAP</h2>
+                <div class="ms_line mt-3">
+                    <div class="border"><i class="ms_star fa-solid fa-star rounded-circle"></i></div>
+                </div>
+                <div class="w-80 text-white mt-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
         </div>
+        <!--Parte portfolio-->
         <div class="row ms_portfolio">
-            <div class="col-12 col-sm-4 offset-sm-4 col-lg-8 offset-lg-2 ms_card ">Portfolio</div>
+            <div class="col-12 ms_card mt-5 ">Portfolio</div>
             <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
             <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
             <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
@@ -60,6 +65,7 @@
             <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
             <div class="col-12 col-sm-6 col-lg-4 text-center ms_card">img</div>
         </div>
+        <!--Parte about us-->
         <div class="row ms_about bg-primary">
             <div class="col-8 offset-2 col-sm-4 offset-sm-4 col-lg-2 offset-lg-5 mt-5 text-center"> ABOUT </div>
             <div class="col-8 offset-2 col-sm-4 offset-sm-2 mt-5"> Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -71,6 +77,7 @@
             <div class="col-8 offset-2 mt-5 mb-5 text-center "> <button class="btn btn-secondary"
                     type="submit">Button</button></div>
         </div>
+        <!--Parte contact-->
         <div class="row ms_contact bg-warning">
             <div class="col-8 offset-2 mt-5 text-center"> CONTACT ME </div>
             <div class="col-8 offset-2  border-bottom">Name</div>
