@@ -13,3 +13,12 @@
     background-color: blue;
     height: 300px;
 }
+.ms_card{
+    background-color: red;
+    height: 150px;
+    border: dashed 2px black;
+}
+.ms_portfolio{
+    max-width: 1170px;
+    margin: auto;
+}
