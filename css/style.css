@@ -1,11 +1,6 @@
 body {
     padding-top: 56px;
 }
-
-header {
-    background-color: rgb(44, 62, 80);
-}
-
 .ms_line {
     height: 5px;
     width: 40%;
@@ -23,39 +18,25 @@ header {
     height:40px;
     line-height: 40px;
 }
-.ms_about {
-    background-color: rgb(26, 188, 156)
-}
-
 .ms_star {
     position: absolute;
     top: -8px;
     left: 50%;
     transform: translateX(-50%);
     width: 20px;
-    background-color: rgb(26, 188, 156);
     color: white;
 }
 
-.ms_button-send {
+.ms_button-send, .ms_jumbotron, .ms_about, .ms_star {
     background-color: rgb(26, 188, 156);
     ;
 }
-
-.ms_jumbotron {
-    background-color: rgb(26, 188, 156);
-}
-
-.ms_mauto {
-    margin: auto;
-}
-.ms_top-bottom{
+.ms_footer-bottom, header{
     background-color: rgb(44, 62, 80);
 }
 .ms_mxw {
     max-width: 1170px;
 }
-
 .ms_card:hover img{
     filter: opacity(0.4);
 }
@@ -71,6 +52,6 @@ display: block;
     right: 50%;
     transform: translate(50%, -30%);
 }
-footer{
+ footer {
     background-color: rgb(58, 84, 109);
-}
+ }
