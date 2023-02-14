@@ -15,9 +15,14 @@ header {
 }
 
 .ms_img {
-    width: 180px;
+    width: 190px;
 }
-
+.ms_social{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+}
 .ms_about {
     background-color: rgb(26, 188, 156)
 }
@@ -63,4 +68,7 @@ display: block;
     top: 50%;
     right: 50%;
     transform: translate(50%, -30%);
+}
+footer{
+    background-color: rgb(58, 84, 109);
 }
