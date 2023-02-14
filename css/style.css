@@ -2,7 +2,7 @@ body {
     padding-top: 56px;
 }
 
-nav {
+header {
     background-color: rgb(44, 62, 80);
 }
 
@@ -28,14 +28,10 @@ nav {
     color: white;
 }
 
-.ms_main {
-    margin: auto;
+.ms_jumbotron{
     background-color: rgb(26, 188, 156);
 }
 
-.ms_jumbotron {
-    background-color: rgb(26, 188, 156);
-}
 
 
 
