@@ -18,6 +18,10 @@ header {
     width: 180px;
 }
 
+.ms_about {
+    background-color: rgb(26, 188, 156)
+}
+
 .ms_star {
     position: absolute;
     top: -8px;
@@ -28,7 +32,12 @@ header {
     color: white;
 }
 
-.ms_jumbotron{
+.ms_button-send {
+    background-color: rgb(26, 188, 156);
+    ;
+}
+
+.ms_jumbotron {
     background-color: rgb(26, 188, 156);
 }
 
