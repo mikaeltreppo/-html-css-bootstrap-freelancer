@@ -13,21 +13,49 @@ body {
 .ms_img {
     width: 190px;
 }
-
+i.fa-star{
+    font-size: 20px;
+}
 .ms_social {
     display: inline-block;
     width: 40px;
     height: 40px;
     line-height: 40px;
 }
-
-.ms_star {
-    position: absolute;
-    top: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 20px;
-    color: white;
+.ms_star-white::before{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    border-radius: 3px;
+    
+   
+}
+.ms_star-white::after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    border-radius: 3px;
+ 
+}
+.ms_star-black::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 150px;
+    background-color:black;
+    border-radius: 3px;
+}
+.ms_star-black::after{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 150px;
+    background-color:black;
+    border-radius: 3px;
 }
 
 .ms_link-bootsrap {
@@ -36,8 +64,8 @@ body {
 
 .ms_button-send,
 .ms_jumbotron,
-.ms_about,
-.ms_star {
+.ms_about
+ {
     background-color: rgb(26, 188, 156);
 }
 
