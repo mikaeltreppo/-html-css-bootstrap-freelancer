@@ -41,13 +41,26 @@ header {
     background-color: rgb(26, 188, 156);
 }
 
-
-
-
 .ms_mauto {
     margin: auto;
 }
 
 .ms_mxw {
     max-width: 1170px;
+}
+
+.ms_card:hover img{
+    filter: opacity(0.4);
+}
+.ms_card:hover .ms_icon{
+display: block;
+}
+.ms_icon{
+    display: none;
+    color: rgb(44, 42, 40);
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -30%);
 }
