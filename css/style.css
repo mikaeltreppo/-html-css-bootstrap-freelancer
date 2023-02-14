@@ -49,7 +49,9 @@ header {
 .ms_mauto {
     margin: auto;
 }
-
+.ms_top-bottom{
+    background-color: rgb(44, 62, 80);
+}
 .ms_mxw {
     max-width: 1170px;
 }
