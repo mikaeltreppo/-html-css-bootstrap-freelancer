@@ -1,6 +1,7 @@
 body {
     padding-top: 56px;
 }
+
 .ms_line {
     height: 5px;
     width: 40%;
@@ -12,12 +13,14 @@ body {
 .ms_img {
     width: 190px;
 }
-.ms_social{
+
+.ms_social {
     display: inline-block;
     width: 40px;
-    height:40px;
+    height: 40px;
     line-height: 40px;
 }
+
 .ms_star {
     position: absolute;
     top: -8px;
@@ -27,23 +30,35 @@ body {
     color: white;
 }
 
-.ms_button-send, .ms_jumbotron, .ms_about, .ms_star {
-    background-color: rgb(26, 188, 156);
-    ;
+.ms_link-bootsrap {
+    color: rgb(26, 188, 156);
 }
-.ms_footer-bottom, header{
+
+.ms_button-send,
+.ms_jumbotron,
+.ms_about,
+.ms_star {
+    background-color: rgb(26, 188, 156);
+}
+
+.ms_footer-bottom,
+header {
     background-color: rgb(44, 62, 80);
 }
+
 .ms_mxw {
     max-width: 1170px;
 }
-.ms_card:hover img{
+
+.ms_card:hover img {
     filter: opacity(0.4);
 }
-.ms_card:hover .ms_icon{
-display: block;
+
+.ms_card:hover .ms_icon {
+    display: block;
 }
-.ms_icon{
+
+.ms_icon {
     display: none;
     color: rgb(44, 42, 40);
     font-size: 70px;
@@ -52,6 +67,7 @@ display: block;
     right: 50%;
     transform: translate(50%, -30%);
 }
- footer {
+
+footer {
     background-color: rgb(58, 84, 109);
- }
+}
